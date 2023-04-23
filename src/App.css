@@ -1,0 +1,96 @@
+/* Form Container */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-container h1,
+.form-label {
+  font-weight: 700;
+}
+
+.form-container {
+  margin: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ededed;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #ddd;
+}
+
+.form-container h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Form Elements */
+.form-field {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.form-label {
+  flex: 1;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  flex: 3;
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
+
+.form-textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+.btn {
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  width: auto;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #24578d;
+  color: #fff;
+}
+
+.btn-success {
+  background-color: #307240;
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: #973b44;
+  color: #fff;
+}
